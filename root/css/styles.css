@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+/*estilos del header*/ 
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+#listaheader {
+    color: #242E52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+a {
+    color: #242E52;
+}
+
+
+.imgheader1 {
+    display: flex;
+    padding: 12% 4%;
+    margin: 1% 0%;
+    justify-content: flex-start;
+}
+.hamburguesa {
+    display: none;
+}
+
+header .boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* empezamos con el main para mobile*/ 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainarticle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 80vw;
+}
+
+.imgmainarticle {
+    display: flex;
+    width: 80%;
+    margin: 0% 0% 15% 5%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    margin-bottom: 15%;
+
+}
+
+article h1 {
+    display: flex;
+    flex-direction: row;
+    color: #232C50;
+    font-size: 58px;
+    width: 96%;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.035em;
+    
+}
+article p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    text-align: left;
+    margin: 0%;
+    font-size: 16.56px;
+    color: #000000;
+    font-weight: 500;
+    width: 95%;
+    
+    
+}
+main .boton {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+
+/*estilo para todos los botones get started*/
+.boton {
+    color:#FFFFFF ;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    border-style: none;
+    padding: 10px;
+
+}
+
+.secondarticle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 88vw;
+}
+
+.secondarticle section {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+}
+
+.secondarticle h3 {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    color: #232851;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+}
+
+#psecondarticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 151.1%;
+    color: #000000;
+    font-weight: 500;
+    margin: 5% 11% 30% 11%;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    color: #323851;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    margin-left: 10% ;
+}
+
+.botontitulo {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-items:flex-start;
+    padding: 10px 25px;
+    background-color: #8B48BF;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 69px;
+    height: 43px;
+    font-size: 16px;
+    margin-right: 2%;
+    
+}
+
+.textoarticulos {
+    display: flex;
+    align-items: center;
+    color: #B3B2B7;
+    margin: 3%;
+    font-size: 16.3px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 34vw;
+}
+
+/*empezamos las tarjetas para el lado mobile*/
+.thirdarticle {
+    display: flex;
+    flex-direction: row;
+
+}
+
+main h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #242E53;
+    font-weight: 700;
+    font-size: 39.21px;
+    margin: 6% 0%
+    
+}
+
+.thirdarticle .tarjetas {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 450px;
+    height: 250px;
+
+}
+
+.fotoperfiles {
+    position: relative;
+    bottom: 30px;
+}
+
+.nombres {
+    display: flex;
+    justify-content: center;
+    color: #3F4868;
+    font-size: 16.07px;
+    font-weight: 700;
+    margin: 3%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #B9B9C1;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#botonabajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+/*empezamos footer*/
+
+#seccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 1440px;
+    height: 224px;
+}
+
+#seccion h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    letter-spacing: -0.005em;
+    width: 438px;
+    height: 96px;
+    margin-left: 15%;
+}
+
+#seccion button {
+    color:#8B48BF ;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    border-style: none;
+    padding: 10px;
+    margin-right: 10%;
+}
+
+footer
+
