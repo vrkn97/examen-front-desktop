@@ -85,7 +85,7 @@ article h1 {
     font-weight: 700;
     text-align: left;
     letter-spacing: -0.035em;
-    
+    margin: 5%;
 }
 article p {
     display: flex;
@@ -126,6 +126,7 @@ main .boton {
     flex-direction: row;
     align-items: flex-start;
     width: 88vw;
+    
 }
 
 .secondarticle section {
@@ -137,12 +138,14 @@ main .boton {
 .secondarticle h3 {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-self: center;
     width: 80%;
     color: #232851;
     font-weight: 700;
     font-size: 36px;
     text-align: left;
+    
 }
 
 #psecondarticle {
@@ -163,7 +166,7 @@ main .boton {
     font-size: 16px;
     font-weight: 700;
     width: 100%;
-    margin-left: 10% ;
+    margin: 5% 0% 0% 18%;
 }
 
 .botontitulo {
@@ -187,7 +190,7 @@ main .boton {
     display: flex;
     align-items: center;
     color: #B3B2B7;
-    margin: 3%;
+    margin: 3% 3% 3% 10%;
     font-size: 16.3px;
     font-weight: 500;
     line-height: 26px;
@@ -267,6 +270,7 @@ main h3 {
     padding: 20px;
     width: 1440px;
     height: 224px;
+
 }
 
 #seccion h2 {
@@ -279,7 +283,7 @@ main h3 {
     letter-spacing: -0.005em;
     width: 438px;
     height: 96px;
-    margin-left: 15%;
+    margin-left: 9%;
 }
 
 #seccion button {
@@ -293,5 +297,97 @@ main h3 {
     margin-right: 10%;
 }
 
-footer
+footer {
+   background-color: #1E1E26;
+   width: 1439px;
+    height: 247px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logoblanco {
+    width: 145.43px;
+    height: 26.18px;
+    margin-bottom: 35px;
+}
+
+a i {
+    color:  #FFFFFF;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#logoiconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.primernav {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.primernav a {
+    color: #FFFFFF;
+}
+
+.segundonav {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    justify-content: center;
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+.segundonav a {
+    color: #FFFFFF;
+}
+
+footer form {
+    display: flex;
+    justify-content: center;
+    width: 272.81px;
+    height: 48.52px;
+    margin: 0% 18% 19% 0%;
+}
+    
+form textarea {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 30px;
+    width: 201px;
+    height: 44px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #A0A0A0;
+    border-style: none;
+}
+
+.botonfooter {
+    color:#FFFFFF ;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 63px;
+    height: 42px;
+    border-style: none;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#ultimaparte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    color: #8C8C94;
+    font-size: 12.5px;
+}
 
