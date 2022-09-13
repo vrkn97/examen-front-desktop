@@ -14,13 +14,13 @@ header {
 }
 
 #listaheader {
-    color: #242E52;
+    color: rgb(36, 46, 82);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-a {
+.lista {
     color: #242E52;
 }
 
@@ -42,7 +42,7 @@ header .boton {
     align-self: center;
 }
 
-/* empezamos con el main para mobile*/ 
+/* empezamos con el main para desktop*/ 
 
 main {
     display: flex;
@@ -57,7 +57,7 @@ main {
     align-items: center;
     justify-content: center;
     align-self: center;
-    width: 80vw;
+    width: 100vw;
 }
 
 .imgmainarticle {
@@ -112,7 +112,7 @@ main .boton {
 /*estilo para todos los botones get started*/
 .boton {
     color:#FFFFFF ;
-    background-color: #8B48BF;
+    background-color: rgb(139, 72, 191);
     border-radius: 50px;
     width: 134px;
     height: 44px;
@@ -197,7 +197,7 @@ main .boton {
     width: 34vw;
 }
 
-/*empezamos las tarjetas para el lado mobile*/
+/*empezamos las tarjetas para desktop*/
 .thirdarticle {
     display: flex;
     flex-direction: row;
@@ -214,6 +214,7 @@ main h3 {
     margin: 6% 0%
     
 }
+
 
 .thirdarticle .tarjetas {
     display: flex;
@@ -286,7 +287,7 @@ main h3 {
     margin-left: 9%;
 }
 
-#seccion button {
+.morado {
     color:#8B48BF ;
     background-color: #FFFFFF;
     border-radius: 50px;
@@ -390,4 +391,224 @@ form textarea {
     color: #8C8C94;
     font-size: 12.5px;
 }
+
+/*empezamos con responsive para mobile */
+
+@media (max-width: 480px){
+
+    #listaheader {
+        display: none;
+    }
+    .lista {
+        display: none;
+    }
+    header .boton {
+        display: none;
+    }
+    .hamburguesa {
+        display:flex;
+        align-items: flex-end;
+        padding: 10%;
+        margin: 1% 0% 0% 7%;
+    }
+
+    .mainarticle{
+        flex-direction: column-reverse;
+        align-items: center;
+        align-self: center;
+    }
+    
+    .imgmainarticle {
+        width: 385.24px;
+        
+    }
+    
+    article {
+        flex-direction: column;
+        height: auto;
+        width: 439px;
+    }
+    
+    article h1 {
+        flex-direction: column;
+        font-size: 48px;
+        align-self: center;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.035em;
+        width: 439px;
+
+    }
+
+    article p {
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .boton {
+        flex-direction: column;
+        align-self: center;
+        margin-top: 5%;
+    }
+
+    .secondarticle {
+        flex-direction: column;
+        width: 433px;
+        align-items: center;
+    }
+
+    .secondarticle section {
+        width: 433px;
+    }
+
+    .secondarticle h3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        width: 433px;
+    }
+    #psecondarticle {
+        margin: 0%;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        width: 433px;
+        margin: 5% 0% 15% 0%;
+    }
+
+    .titulos {
+        flex-direction: row;
+        background-color:  rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        margin: 0% 0% 0% 20%;
+        width: 100vw;
+        
+    }
+    .titulos p {
+        margin-right: 23%;
+    }
+
+    .botontitulo {
+        margin: 0%;
+    }
+
+    .textoarticulos {
+        align-items: flex-start;
+        flex-direction: row;
+        text-align: left;
+        margin: 9% 0% 9% 5%;
+        width: 408px;
+    }
+    
+    .quitar {
+        display: none;
+        
+    }
+    #quitar {
+        display: none;
+    }
+
+    #quitar1 {
+        display: none;
+    }
+    
+    .thirdarticle {
+        flex-direction: column;
+    }
+
+    main h3 {
+        margin-bottom: 25%;
+    }
+
+    .descripcion {
+        width: 390px;
+    }
+
+    #botonabajo {
+        position: relative;
+        bottom: 30px;
+
+    }
+    #seccion {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 484px;
+        height: 318px;
+    }
+    
+    #seccion h2 {
+        width: 324px;
+        height: 144px;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .morado {
+        position: relative;
+        top: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    footer {
+        width: 480px;
+        height: 535.89px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #ultimaparte {
+        order: 5;
+    }
+
+    .primernav {
+        order: 4;
+    }
+
+    .segundonav {
+        order: 4;
+    }
+
+    #logoiconos {
+        order: 3;
+    }
+
+    #logoblanco {
+        order: 2;
+    }
+
+    .ultimotexto {
+        order: 1;
+    }
+
+    
+    
+}
+
+/* empezamos con las pseudoclases */
+
+.boton:hover {
+    background-color: rgba(139, 72, 191, 0.7)
+}
+
+#listaheader a:hover {
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.morado:hover {
+    background-color: rgba(204, 167, 233, 0.7)
+}
+
+.botonfooter:hover {
+    background-color: rgba(139, 72, 191, 0.7)
+}
+
+cursor: pointer;
+
 
