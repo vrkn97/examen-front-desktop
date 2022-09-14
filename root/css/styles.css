@@ -392,6 +392,7 @@ form textarea {
     font-size: 12.5px;
 }
 
+
 /*empezamos con responsive para mobile */
 
 @media (max-width: 480px){
@@ -505,10 +506,6 @@ form textarea {
         width: 408px;
     }
     
-    .quitar {
-        display: none;
-        
-    }
     #quitar {
         display: none;
     }
@@ -563,28 +560,60 @@ form textarea {
         align-items: center;
     }
 
-    #ultimaparte {
-        order: 5;
+    form textarea {
+        width: 308px;
+        height: 44px;
+    }
+
+    .botonfooter {
+        width: 63px;
+        height: 42px
+    }
+
+    #ultimaparte form {
+        width: 380px;
+        height: 48.52px;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 0% 0% 3%;
     }
 
     .primernav {
-        order: 4;
+        width: 172px;
+        height: 161.14px;
+        position: relative;
+        right: 70px;
+        bottom: 120px;
     }
 
     .segundonav {
-        order: 4;
+        width: 172px;
+        height: 161.14px;
+        position: relative;
+        left: 90px;
+        top: 20px;
     }
 
-    #logoiconos {
-        order: 3;
+    .iconos {
+        width: 480px;
     }
 
-    #logoblanco {
-        order: 2;
+    .iconos a i {
+        position: relative;
+        margin: 0% 5% 0% 5%;
+        bottom: 180px;
+        left: 50px;
+        
     }
 
-    .ultimotexto {
-        order: 1;
+    #logoblanco{
+        position: relative;
+        bottom: 50px;
+    }
+
+    #ultimotexto {
+        position: relative;
+        top: 380px;
     }
 
     
@@ -594,21 +623,25 @@ form textarea {
 /* empezamos con las pseudoclases */
 
 .boton:hover {
-    background-color: rgba(139, 72, 191, 0.7)
+    background-color: rgba(139, 72, 191, 0.7);
+    cursor: pointer;
 }
 
 #listaheader a:hover {
     color: rgba(36, 46, 82, 0.6);
+    cursor: pointer;
 }
 
 .morado:hover {
-    background-color: rgba(204, 167, 233, 0.7)
+    background-color: rgba(204, 167, 233, 0.7);
+    cursor: pointer;
 }
 
 .botonfooter:hover {
-    background-color: rgba(139, 72, 191, 0.7)
+    background-color: rgba(139, 72, 191, 0.7);
+    cursor: pointer;
 }
 
-cursor: pointer;
+
 
 
