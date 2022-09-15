@@ -64,7 +64,6 @@ main {
 }
 
 .imgmainarticle {
-    display: flex;
     width: 80%;
     margin: 0% 0% 15% 5%;
 }
@@ -127,7 +126,6 @@ main .boton {
 
 .secondarticle {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     width: 88vw;
     
@@ -204,7 +202,6 @@ main .boton {
 /*empezamos las tarjetas para desktop*/
 .thirdarticle {
     display: flex;
-    flex-direction: row;
 
 }
 
@@ -268,7 +265,6 @@ main h3 {
 
 #seccion {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: #8B48BF;
     color: #FFFFFF;
@@ -307,7 +303,6 @@ footer {
    width: 1439px;
     height: 247px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -318,7 +313,7 @@ footer {
 }
 
 a i {
-    color:  #FFFFFF;
+    color:#FFFFFF;
     letter-spacing: 10px;
     text-align: center;
 }
