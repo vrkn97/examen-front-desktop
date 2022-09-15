@@ -478,12 +478,13 @@ form input {
         width: 433px;
     }
     #psecondarticle {
-        margin: 0%;
         justify-content: center;
         align-self: center;
         text-align: center;
         width: 433px;
-        margin: 5% 0% 15% 0%;
+        margin: 0% 0% 15% 0%;
+        position: relative;
+        bottom: 50px;
     }
 
     .titulos {
