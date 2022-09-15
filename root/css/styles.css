@@ -23,7 +23,7 @@ header {
     align-items: center;
     gap: 20px;
 }
-.lista {
+#listaheader a {
     color: #242E52;
 }
 
