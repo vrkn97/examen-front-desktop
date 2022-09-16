@@ -335,7 +335,7 @@ a i {
 }
 
 .primernav a {
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
 }
 
 .segundonav {
@@ -641,7 +641,13 @@ form input {
     background-color: rgba(139, 72, 191, 0.7);
     cursor: pointer;
 }
+ .primernav a:hover {
+    color: rgba(255, 255, 255, 0.658);
+ }
 
+ .segundonav a:hover {
+    color: rgba(255, 255, 255, 0.658);
+ }
 
 
 
