@@ -1,5 +1,6 @@
 /*VIC IMPORTANTE PARA VISUALIZAR EL MOBILE DEBE ESTAR EN 480 * 
-      842 ES EL QUE MEJOR RESULTADOS ME DIO Y PARA DESKTOP 1440 * 842*/
+      842 ES EL QUE MEJOR RESULTADOS ME DIO Y PARA DESKTOP 1440 * 842
+      VERLO EN MODO MOVIL LA PARTE MOVIL*/
 
 * {
     box-sizing: border-box;
@@ -7,9 +8,12 @@
     margin: 0%;
     padding: 0%;
     text-decoration: none;
+    
 }
 
 /*estilos del header*/ 
+
+
 header {
     display: flex;
     justify-content: space-around;
@@ -305,6 +309,7 @@ footer {
     height: 247px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 #logoblanco {
