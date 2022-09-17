@@ -618,7 +618,8 @@ form input {
     
 }
 
-/* empezamos con las pseudoclases */
+/* empezamos con las pseudoclases las puse de ultimas por que no me servian las 
+media queries despues de estas*/
 
 .boton:hover {
     background-color: rgba(139, 72, 191, 0.7);
